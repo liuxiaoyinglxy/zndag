@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	position: relative;
+}
+
+body .top {
+	width: 100%;
+	height: 70%;
+	background-color: #188DD3;
+}
+
+body .bottom {
+	width: 100%;
+	height: 30%;
+	background-color: #286A97;
+}
+
+body .login {
+	*zoom: 2;
+	width: 1002px;
+	height: 569px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -285px;
+	margin-left: -501px;
+	background-image: url('login.png')
+}
+
+ul {
+	position: absolute;
+	top: 260px;
+	left: 290px;
+	width: 490px;
+}
+
+ul li {
+	font-size: 20px;
+	list-style: none;
+	height: 60px;
+	line-height: 40px;
+}
+
+ul li span {
+	display: inline-block;
+	width: 90px;
+}
+
+ul li input {
+	width: 300px;
+	height: 35px;
+	border-radius: 5px;
+	border: 1px solid #999;
+	margin-right: 6px;
+	font-size: 18px;
+}
+
+ul li a {
+	font-size: 16px;
+	text-decoration: none;
+	color: #A3AFD7;
+}
+
+ul li:nth-child(3) {
+	text-align: center;
+}
+
+ul li button {
+	width: 150px;
+	height: 40px;
+	background-color: #0ED56A;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.copyright {
+	width: 100%;
+	position: absolute;
+	bottom: 20px;
+	left: 0px;
+	/* margin-left: -200px; */
+}
+
+.copyright p {
+	color: #1A76BF;
+	text-align: center;
+	font-weight: 500;
+	height: 24px;
+	line-height: 24px;
+}
